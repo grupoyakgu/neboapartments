@@ -1,5 +1,6 @@
 import Logo from "./Logo";
 import LanguageSwitcher from "./LanguageSwitcher";
+import MobileMenu from "./MobileMenu";
 import type { Locale, Messages } from "@/lib/i18n";
 
 export default function Header({ locale, t, overlay }: { locale: Locale; t: Messages; overlay?: boolean }) {
@@ -18,7 +19,8 @@ export default function Header({ locale, t, overlay }: { locale: Locale; t: Mess
         </nav>
         <div className="actions">
           <LanguageSwitcher locale={locale} />
-          <a className="btn btn-dark" href={`/${locale}/apartments`}>{n.book}</a>
+          <a className="btn btn-dark book-desktop" href={`/${locale}/apartments`}>{n.book}</a>
+          <MobileMenu locale={locale} t={t} />
         </div>
       </div>
     </header>
