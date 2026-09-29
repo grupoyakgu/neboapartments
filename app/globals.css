@@ -12,7 +12,7 @@ h1,h2,h3{line-height:1.15;margin:0 0 .5em;letter-spacing:-.02em}h1{font-size:cla
 .site-header.overlay{position:absolute;inset:0 0 auto;background:transparent;border:0;color:#fff}
 .site-header.overlay .logo{filter:invert(1)}
 .bar{display:flex;align-items:center;justify-content:space-between;gap:24px;height:72px}
-.logo{height:34px;width:auto}.logo-light{filter:invert(1)}
+.logo{height:38px;width:auto}.logo-light{filter:invert(1)}
 .nav{display:flex;gap:26px;font-size:.95rem;font-weight:500}.nav a:hover{opacity:.7}
 .actions{display:flex;align-items:center;gap:14px}
 .site-header.overlay .btn-dark{background:#fff;color:var(--ink)}
