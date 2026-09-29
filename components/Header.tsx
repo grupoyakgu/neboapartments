@@ -13,7 +13,7 @@ export default function Header({ locale, t, overlay }: { locale: Locale; t: Mess
           <a href={`/${locale}/apartments`}>{n.apartments}</a>
           <a href={`/${locale}#destinations`}>{n.destinations}</a>
           <a href="#">{n.business}</a>
-          <a href="#">{n.about}</a>
+          <a href={`/${locale}/about`}>{n.about}</a>
           <a href={`/${locale}#faq`}>{n.help}</a>
           <a href="#">{n.owners}</a>
         </nav>

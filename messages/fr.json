@@ -167,5 +167,19 @@
     "successTitle": "Demande reçue !",
     "successText": "Référence {ref}. Nous vous contacterons par e-mail pour confirmer la réservation et le paiement.",
     "noPayment": "Aucun débit n'est effectué maintenant."
+  },
+  "about": {
+    "kicker": "À propos de NEBO Apartments",
+    "title": "Voici NEBO.",
+    "p1": "NEBO est né d'une idée simple : offrir une façon plus personnelle et plus raffinée de vivre une ville. Nous croyons que les meilleurs séjours allient le confort et le service d'un grand hôtel à la liberté, l'intimité et le caractère d'un appartement magnifiquement conçu.",
+    "p2": "Chaque appartement NEBO est pensé avec soin, entièrement équipé et soigneusement sélectionné pour créer une sensation de sérénité dès votre arrivée. Que vous séjourniez quelques nuits ou que vous vous installiez plus longtemps, chaque détail est étudié pour que l'expérience soit fluide, confortable et résolument la vôtre.",
+    "p3": "Notre approche repose sur le design, la qualité et une hospitalité sincère. Nous voulons que vous viviez chaque ville non pas en simple visiteur, mais avec un lieu qui vous ressemble.",
+    "pillars": [
+      "Design",
+      "Qualité",
+      "Hospitalité sincère"
+    ],
+    "closing": "NEBO. Une autre façon de séjourner.",
+    "cta": "Découvrir nos appartements"
   }
 }

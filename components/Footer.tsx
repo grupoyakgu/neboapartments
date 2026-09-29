@@ -19,7 +19,7 @@ export default function Footer({ locale, t }: { locale: Locale; t: Messages }) {
         </div>
         <div>
           <h4>{f.company}</h4>
-          <a href="#">{t.nav.about}</a>
+          <a href={`/${locale}/about`}>{t.nav.about}</a>
           <a href="#">{f.careers}</a>
           <a href="#">{t.nav.owners}</a>
           <a href="#">{f.press}</a>

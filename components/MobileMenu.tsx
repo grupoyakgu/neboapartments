@@ -25,7 +25,7 @@ export default function MobileMenu({ locale, t }: { locale: Locale; t: Messages 
     [n.apartments, `/${locale}/apartments`],
     [n.destinations, `/${locale}#destinations`],
     [n.business, "#"],
-    [n.about, "#"],
+    [n.about, `/${locale}/about`],
     [n.help, `/${locale}#faq`],
     [n.owners, "#"],
   ];
