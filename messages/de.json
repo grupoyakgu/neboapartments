@@ -1,0 +1,45 @@
+{
+  "meta": { "title": "NEBO Apartments — Stilvolle Apartments für Ihren Aufenthalt", "description": "Buchen Sie NEBO Apartments: Design, Komfort und 24/7-Service. Selbst-Check-in und der beste Preis bei Direktbuchung." },
+  "nav": { "apartments": "Apartments", "destinations": "Reiseziele", "business": "Langzeitaufenthalt", "about": "Über NEBO", "help": "Hilfe", "owners": "Eigentümer", "book": "Buchen", "menu": "Menü" },
+  "hero": { "title": "Ihr Zuhause in jeder Stadt", "subtitle": "Designer-Apartments, voll ausgestattet und mit 24/7-Service. Direkt zum besten Preis buchen." },
+  "search": { "where": "Reiseziel", "allDest": "Alle Reiseziele", "checkin": "Anreise", "checkout": "Abreise", "guests": "Gäste", "guestsN": "{n} Gäste", "guestsOne": "1 Gast", "search": "Suchen" },
+  "usp": {
+    "title": "Alles, was Sie brauchen – ganz ohne Aufwand",
+    "items": [
+      { "title": "Selbst-Check-in", "text": "Kommen Sie an, wann Sie möchten – mit digitalem Zugang, ohne Rezeption und Wartezeit." },
+      { "title": "24/7-Service", "text": "Unser Team hilft Ihnen jederzeit in Ihrer Sprache." },
+      { "title": "Design & Komfort", "text": "Liebevoll gestaltete Räume, hochwertige Betten, ausgestattete Küche und schnelles WLAN." },
+      { "title": "Bester Direktpreis", "text": "Hier buchen Sie zum besten Preis, ohne versteckte Gebühren." }
+    ]
+  },
+  "apts": { "title": "Unsere Apartments", "subtitle": "Wählen Sie den Raum, der zu Ihrer Reise passt.", "night": "Nacht", "from": "ab", "guests": "Gäste", "bedrooms": "Schlafzimmer", "baths": "Bäder", "view": "Ansehen & buchen", "all": "Alle Apartments ansehen", "none": "Keine Apartments für diese Suche verfügbar.", "amenities": "Ausstattung", "description": "Beschreibung" },
+  "dest": { "title": "Reiseziele", "subtitle": "Wir wachsen. Entdecken Sie, wo Sie mit NEBO übernachten können.", "soon": "Demnächst", "discover": "Entdecken" },
+  "how": {
+    "title": "So funktioniert's",
+    "steps": [
+      { "title": "Apartment auswählen", "text": "Suchen Sie nach Datum und Gästen und finden Sie Ihren idealen Raum." },
+      { "title": "In Minuten buchen", "text": "Bestätigen Sie Ihre Daten und erhalten Sie sofort die Bestätigung." },
+      { "title": "Ankommen und genießen", "text": "Wir senden Ihnen die Zugangsdaten vor Ihrer Anreise." }
+    ]
+  },
+  "reviews": { "title": "Das sagen unsere Gäste", "subtitle": "Ihr Feedback hilft uns, jeden Aufenthalt zu verbessern.", "cta": "Bewertungen lesen" },
+  "business": { "title": "Langzeit- & Geschäftsaufenthalte", "text": "Sonderpreise für Aufenthalte über 30 Tage, für Teams und Berufsreisende.", "cta": "Angebot anfragen" },
+  "owners": { "title": "Sie besitzen eine Immobilie?", "text": "Vertrauen Sie sie NEBO an: Wir kümmern uns um Buchungen, Reinigung und Gästebetreuung.", "cta": "Arbeiten Sie mit uns" },
+  "faq": {
+    "title": "Häufige Fragen",
+    "items": [
+      { "q": "Wie funktioniert der Check-in?", "a": "Sie erhalten die digitalen Zugangsdaten vor Ihrer Anreise. Ein Halt an der Rezeption ist nicht nötig." },
+      { "q": "Kann ich meine Buchung stornieren?", "a": "Die Stornobedingungen werden bei jedem Apartment vor der Bestätigung angezeigt." },
+      { "q": "Sind Bettwäsche und Handtücher inklusive?", "a": "Ja, jedes Apartment enthält Bettwäsche, Handtücher und grundlegende Pflegeprodukte." },
+      { "q": "Sind Haustiere erlaubt?", "a": "Das hängt vom Apartment ab. Schreiben Sie uns, wir helfen Ihnen bei der Auswahl." },
+      { "q": "Wie kann ich Sie kontaktieren?", "a": "Per WhatsApp, E-Mail oder Telefon, rund um die Uhr, an jedem Tag des Jahres." }
+    ]
+  },
+  "newsletter": { "title": "Exklusive Angebote erhalten", "text": "Abonnieren Sie und erfahren Sie als Erste/r von neuen Apartments und Aktionen.", "placeholder": "Ihre E-Mail", "button": "Abonnieren", "thanks": "Danke für Ihre Anmeldung!" },
+  "footer": { "tagline": "Apartments für stilvolle Aufenthalte.", "explore": "Entdecken", "company": "Unternehmen", "support": "Support", "legal": "Rechtliches", "careers": "Arbeiten Sie mit uns", "press": "Presse", "contact": "Kontakt", "terms": "AGB", "privacy": "Datenschutz", "cookies": "Cookies", "blog": "Blog", "rights": "Alle Rechte vorbehalten." },
+  "book": {
+    "title": "Aufenthalt buchen", "checkin": "Anreise", "checkout": "Abreise", "guests": "Gäste", "name": "Vollständiger Name", "email": "E-Mail", "phone": "Telefon", "notes": "Anmerkungen (optional)",
+    "nights": "{n} Nächte", "nightsOne": "1 Nacht", "total": "Gesamt", "cta": "Buchung anfragen", "sending": "Wird gesendet…", "invalid": "Bitte prüfen Sie Daten und Angaben.", "error": "Senden fehlgeschlagen. Bitte erneut versuchen.",
+    "successTitle": "Anfrage erhalten!", "successText": "Referenz {ref}. Wir melden uns per E-Mail, um Buchung und Zahlung zu bestätigen.", "noPayment": "Es erfolgt jetzt keine Abbuchung."
+  }
+}

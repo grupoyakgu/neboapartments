@@ -1,0 +1,45 @@
+{
+  "meta": { "title": "NEBO Apartments — Stylish apartments for your stay", "description": "Book NEBO apartments: design, comfort and 24/7 support. Self check-in and the best rate when you book direct." },
+  "nav": { "apartments": "Apartments", "destinations": "Destinations", "business": "Long stays", "about": "About NEBO", "help": "Help", "owners": "Owners", "book": "Book now", "menu": "Menu" },
+  "hero": { "title": "Your home in any city", "subtitle": "Designer, fully equipped apartments with 24/7 support. Book direct at the best price." },
+  "search": { "where": "Destination", "allDest": "All destinations", "checkin": "Check-in", "checkout": "Check-out", "guests": "Guests", "guestsN": "{n} guests", "guestsOne": "1 guest", "search": "Search" },
+  "usp": {
+    "title": "Everything you need, none of the hassle",
+    "items": [
+      { "title": "Self check-in", "text": "Arrive whenever you like with digital access — no desk, no waiting." },
+      { "title": "24/7 support", "text": "Our team is here at any hour, in your language." },
+      { "title": "Design & comfort", "text": "Carefully styled spaces, premium beds, equipped kitchen and fast Wi-Fi." },
+      { "title": "Best direct rate", "text": "Book here for the best price, with no hidden fees." }
+    ]
+  },
+  "apts": { "title": "Our apartments", "subtitle": "Pick the space that fits your trip.", "night": "night", "from": "from", "guests": "guests", "bedrooms": "bedrooms", "baths": "baths", "view": "View & book", "all": "See all apartments", "none": "No apartments available for that search.", "amenities": "Amenities", "description": "Description" },
+  "dest": { "title": "Destinations", "subtitle": "We're growing. Discover where you can stay with NEBO.", "soon": "Coming soon", "discover": "Discover" },
+  "how": {
+    "title": "How it works",
+    "steps": [
+      { "title": "Choose your apartment", "text": "Search by dates and guests and find your ideal space." },
+      { "title": "Book in minutes", "text": "Confirm your details and get instant confirmation." },
+      { "title": "Arrive and enjoy", "text": "We send you access instructions before you arrive." }
+    ]
+  },
+  "reviews": { "title": "What our guests say", "subtitle": "Your feedback helps us improve every stay.", "cta": "Read reviews" },
+  "business": { "title": "Long & corporate stays", "text": "Special rates for stays over 30 days, teams and professionals on the move.", "cta": "Request an offer" },
+  "owners": { "title": "Own a property?", "text": "Leave it with NEBO: we handle bookings, cleaning and guest care.", "cta": "Work with us" },
+  "faq": {
+    "title": "Frequently asked questions",
+    "items": [
+      { "q": "How does check-in work?", "a": "You'll receive digital access instructions before arrival. No need to stop at a front desk." },
+      { "q": "Can I cancel my booking?", "a": "Cancellation terms are shown on each apartment before you confirm." },
+      { "q": "Are linens and towels included?", "a": "Yes, every apartment includes bed linen, towels and basic toiletries." },
+      { "q": "Do you accept pets?", "a": "It depends on the apartment. Write to us and we'll help you find the right one." },
+      { "q": "How can I contact you?", "a": "By WhatsApp, email or phone, 24 hours a day, every day of the year." }
+    ]
+  },
+  "newsletter": { "title": "Get exclusive offers", "text": "Subscribe and be first to hear about new apartments and deals.", "placeholder": "Your email", "button": "Subscribe", "thanks": "Thanks for subscribing!" },
+  "footer": { "tagline": "Apartments for stylish stays.", "explore": "Explore", "company": "Company", "support": "Support", "legal": "Legal", "careers": "Work with us", "press": "Press", "contact": "Contact", "terms": "Terms & conditions", "privacy": "Privacy", "cookies": "Cookies", "blog": "Blog", "rights": "All rights reserved." },
+  "book": {
+    "title": "Book your stay", "checkin": "Check-in", "checkout": "Check-out", "guests": "Guests", "name": "Full name", "email": "Email", "phone": "Phone", "notes": "Comments (optional)",
+    "nights": "{n} nights", "nightsOne": "1 night", "total": "Total", "cta": "Request booking", "sending": "Sending…", "invalid": "Please check your dates and details.", "error": "Couldn't send. Please try again.",
+    "successTitle": "Request received!", "successText": "Reference {ref}. We'll email you to confirm your booking and payment.", "noPayment": "You won't be charged now."
+  }
+}
