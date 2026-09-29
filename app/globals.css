@@ -60,3 +60,17 @@ input:focus,select:focus,textarea:focus{outline:2px solid var(--accent);outline-
 aside h3{margin-top:0}
 @media(max-width:960px){.nav{display:none}.searchbar{grid-template-columns:1fr 1fr}.searchbar .btn{grid-column:1/-1}.grid3,.grid4,.split{grid-template-columns:1fr 1fr}.detail{grid-template-columns:1fr}.site-footer .grid{grid-template-columns:1fr 1fr}.gallery{grid-template-columns:1fr 1fr;grid-template-rows:200px 200px}.gallery img:first-child{grid-column:span 2;grid-row:auto}.gallery img:nth-child(n+4){display:none}}
 @media(max-width:600px){.grid3,.grid4,.split{grid-template-columns:1fr}.section-head{flex-direction:column;align-items:start}.searchbar{grid-template-columns:1fr}.newsletter{flex-direction:column}.hero-inner{padding-top:110px}.actions .btn{padding:.6em 1em}}
+/* search: trigger/backdrop/close exist only for the phone bottom sheet */
+.search-trigger,.search-backdrop,.search-close{display:none}
+@media(max-width:700px){
+  .hero{min-height:100svh}
+  .hero-inner{padding:110px 0 36px}
+  .hero-inner p{margin-bottom:20px}
+  .collapsible .search-trigger{display:inline-flex;width:100%;max-width:340px}
+  .collapsible .search-backdrop{display:block;position:fixed;inset:0;z-index:40;background:#0007;opacity:0;pointer-events:none;transition:opacity .25s}
+  .collapsible.open .search-backdrop{opacity:1;pointer-events:auto}
+  .collapsible .searchbar{position:fixed;left:0;right:0;bottom:0;z-index:41;border-radius:24px 24px 0 0;grid-template-columns:1fr 1fr;padding:22px 18px calc(22px + env(safe-area-inset-bottom));box-shadow:0 -10px 40px #0004;transform:translateY(105%);visibility:hidden;transition:transform .3s ease,visibility .3s}
+  .collapsible.open .searchbar{transform:none;visibility:visible}
+  .collapsible .searchbar label:first-of-type,.collapsible .searchbar .btn[type=submit]{grid-column:1/-1}
+  .collapsible .search-close{display:flex;align-items:center;justify-content:center;position:absolute;top:8px;right:12px;width:36px;height:36px;border:0;border-radius:50%;background:var(--sand);font-size:1.5rem;line-height:1;cursor:pointer}
+}

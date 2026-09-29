@@ -1,45 +1,171 @@
 {
-  "meta": { "title": "NEBO Apartments — Apartamentos para estancias con estilo", "description": "Reserva apartamentos NEBO: diseño, comodidad y atención 24/7. Check-in autónomo y la mejor tarifa reservando en directo." },
-  "nav": { "apartments": "Apartamentos", "destinations": "Destinos", "business": "Estancias largas", "about": "Sobre NEBO", "help": "Ayuda", "owners": "Propietarios", "book": "Reservar", "menu": "Menú" },
-  "hero": { "title": "Tu hogar en cualquier ciudad", "subtitle": "Apartamentos con diseño, totalmente equipados y con atención 24/7. Reserva en directo al mejor precio." },
-  "search": { "where": "Destino", "allDest": "Todos los destinos", "checkin": "Llegada", "checkout": "Salida", "guests": "Huéspedes", "guestsN": "{n} huéspedes", "guestsOne": "1 huésped", "search": "Buscar" },
+  "meta": {
+    "title": "NEBO Apartments — Apartamentos para estancias con estilo",
+    "description": "Reserva apartamentos NEBO: diseño, comodidad y atención 24/7. Check-in autónomo y la mejor tarifa reservando en directo."
+  },
+  "nav": {
+    "apartments": "Apartamentos",
+    "destinations": "Destinos",
+    "business": "Estancias largas",
+    "about": "Sobre NEBO",
+    "help": "Ayuda",
+    "owners": "Propietarios",
+    "book": "Reservar",
+    "menu": "Menú"
+  },
+  "hero": {
+    "title": "Tu hogar en cualquier ciudad",
+    "subtitle": "Apartamentos con diseño, totalmente equipados y con atención 24/7. Reserva en directo al mejor precio."
+  },
+  "search": {
+    "where": "Destino",
+    "allDest": "Todos los destinos",
+    "checkin": "Llegada",
+    "checkout": "Salida",
+    "guests": "Huéspedes",
+    "guestsN": "{n} huéspedes",
+    "guestsOne": "1 huésped",
+    "search": "Buscar",
+    "close": "Cerrar"
+  },
   "usp": {
     "title": "Todo lo que necesitas, sin complicaciones",
     "items": [
-      { "title": "Check-in autónomo", "text": "Llega cuando quieras con acceso digital, sin esperas ni recepción." },
-      { "title": "Atención 24/7", "text": "Nuestro equipo te ayuda a cualquier hora, en tu idioma." },
-      { "title": "Diseño y confort", "text": "Espacios cuidados, camas premium, cocina equipada y Wi-Fi rápido." },
-      { "title": "Mejor precio directo", "text": "Reservando aquí obtienes la mejor tarifa, sin comisiones ocultas." }
+      {
+        "title": "Check-in autónomo",
+        "text": "Llega cuando quieras con acceso digital, sin esperas ni recepción."
+      },
+      {
+        "title": "Atención 24/7",
+        "text": "Nuestro equipo te ayuda a cualquier hora, en tu idioma."
+      },
+      {
+        "title": "Diseño y confort",
+        "text": "Espacios cuidados, camas premium, cocina equipada y Wi-Fi rápido."
+      },
+      {
+        "title": "Mejor precio directo",
+        "text": "Reservando aquí obtienes la mejor tarifa, sin comisiones ocultas."
+      }
     ]
   },
-  "apts": { "title": "Nuestros apartamentos", "subtitle": "Elige el espacio que mejor se adapte a tu viaje.", "night": "noche", "from": "desde", "guests": "huéspedes", "bedrooms": "dormitorios", "baths": "baños", "view": "Ver y reservar", "all": "Ver todos los apartamentos", "none": "No hay apartamentos disponibles para esa búsqueda.", "amenities": "Servicios", "description": "Descripción" },
-  "dest": { "title": "Destinos", "subtitle": "Estamos creciendo. Descubre dónde puedes alojarte con NEBO.", "soon": "Próximamente", "discover": "Descubrir" },
+  "apts": {
+    "title": "Nuestros apartamentos",
+    "subtitle": "Elige el espacio que mejor se adapte a tu viaje.",
+    "night": "noche",
+    "from": "desde",
+    "guests": "huéspedes",
+    "bedrooms": "dormitorios",
+    "baths": "baños",
+    "view": "Ver y reservar",
+    "all": "Ver todos los apartamentos",
+    "none": "No hay apartamentos disponibles para esa búsqueda.",
+    "amenities": "Servicios",
+    "description": "Descripción"
+  },
+  "dest": {
+    "title": "Destinos",
+    "subtitle": "Estamos creciendo. Descubre dónde puedes alojarte con NEBO.",
+    "soon": "Próximamente",
+    "discover": "Descubrir"
+  },
   "how": {
     "title": "Cómo funciona",
     "steps": [
-      { "title": "Elige tu apartamento", "text": "Busca por fechas y huéspedes y encuentra tu espacio ideal." },
-      { "title": "Reserva en minutos", "text": "Confirma tus datos y recibe la confirmación al instante." },
-      { "title": "Llega y disfruta", "text": "Te enviamos las instrucciones de acceso antes de tu llegada." }
+      {
+        "title": "Elige tu apartamento",
+        "text": "Busca por fechas y huéspedes y encuentra tu espacio ideal."
+      },
+      {
+        "title": "Reserva en minutos",
+        "text": "Confirma tus datos y recibe la confirmación al instante."
+      },
+      {
+        "title": "Llega y disfruta",
+        "text": "Te enviamos las instrucciones de acceso antes de tu llegada."
+      }
     ]
   },
-  "reviews": { "title": "Lo que dicen nuestros huéspedes", "subtitle": "Tu opinión nos ayuda a mejorar cada estancia.", "cta": "Leer opiniones" },
-  "business": { "title": "Estancias largas y de empresa", "text": "Tarifas especiales para estancias de más de 30 días, equipos y profesionales en desplazamiento.", "cta": "Solicitar oferta" },
-  "owners": { "title": "¿Tienes una propiedad?", "text": "Ponla en manos de NEBO: gestionamos reservas, limpieza y atención al huésped.", "cta": "Trabaja con nosotros" },
+  "reviews": {
+    "title": "Lo que dicen nuestros huéspedes",
+    "subtitle": "Tu opinión nos ayuda a mejorar cada estancia.",
+    "cta": "Leer opiniones"
+  },
+  "business": {
+    "title": "Estancias largas y de empresa",
+    "text": "Tarifas especiales para estancias de más de 30 días, equipos y profesionales en desplazamiento.",
+    "cta": "Solicitar oferta"
+  },
+  "owners": {
+    "title": "¿Tienes una propiedad?",
+    "text": "Ponla en manos de NEBO: gestionamos reservas, limpieza y atención al huésped.",
+    "cta": "Trabaja con nosotros"
+  },
   "faq": {
     "title": "Preguntas frecuentes",
     "items": [
-      { "q": "¿Cómo funciona el check-in?", "a": "Recibirás las instrucciones de acceso digital antes de tu llegada. No hace falta pasar por recepción." },
-      { "q": "¿Puedo cancelar mi reserva?", "a": "Las condiciones de cancelación se indican en cada apartamento antes de confirmar la reserva." },
-      { "q": "¿Están incluidas las sábanas y toallas?", "a": "Sí, todos los apartamentos incluyen ropa de cama, toallas y artículos básicos de baño." },
-      { "q": "¿Admitís mascotas?", "a": "Depende del apartamento. Escríbenos y te ayudamos a encontrar el más adecuado." },
-      { "q": "¿Cómo puedo contactar con vosotros?", "a": "Por WhatsApp, email o teléfono, las 24 horas, todos los días del año." }
+      {
+        "q": "¿Cómo funciona el check-in?",
+        "a": "Recibirás las instrucciones de acceso digital antes de tu llegada. No hace falta pasar por recepción."
+      },
+      {
+        "q": "¿Puedo cancelar mi reserva?",
+        "a": "Las condiciones de cancelación se indican en cada apartamento antes de confirmar la reserva."
+      },
+      {
+        "q": "¿Están incluidas las sábanas y toallas?",
+        "a": "Sí, todos los apartamentos incluyen ropa de cama, toallas y artículos básicos de baño."
+      },
+      {
+        "q": "¿Admitís mascotas?",
+        "a": "Depende del apartamento. Escríbenos y te ayudamos a encontrar el más adecuado."
+      },
+      {
+        "q": "¿Cómo puedo contactar con vosotros?",
+        "a": "Por WhatsApp, email o teléfono, las 24 horas, todos los días del año."
+      }
     ]
   },
-  "newsletter": { "title": "Recibe ofertas exclusivas", "text": "Suscríbete y sé el primero en conocer nuevos apartamentos y promociones.", "placeholder": "Tu email", "button": "Suscribirme", "thanks": "¡Gracias por suscribirte!" },
-  "footer": { "tagline": "Apartamentos para estancias con estilo.", "explore": "Explorar", "company": "Empresa", "support": "Soporte", "legal": "Legal", "careers": "Trabaja con nosotros", "press": "Prensa", "contact": "Contacto", "terms": "Términos y condiciones", "privacy": "Privacidad", "cookies": "Cookies", "blog": "Blog", "rights": "Todos los derechos reservados." },
+  "newsletter": {
+    "title": "Recibe ofertas exclusivas",
+    "text": "Suscríbete y sé el primero en conocer nuevos apartamentos y promociones.",
+    "placeholder": "Tu email",
+    "button": "Suscribirme",
+    "thanks": "¡Gracias por suscribirte!"
+  },
+  "footer": {
+    "tagline": "Apartamentos para estancias con estilo.",
+    "explore": "Explorar",
+    "company": "Empresa",
+    "support": "Soporte",
+    "legal": "Legal",
+    "careers": "Trabaja con nosotros",
+    "press": "Prensa",
+    "contact": "Contacto",
+    "terms": "Términos y condiciones",
+    "privacy": "Privacidad",
+    "cookies": "Cookies",
+    "blog": "Blog",
+    "rights": "Todos los derechos reservados."
+  },
   "book": {
-    "title": "Reserva tu estancia", "checkin": "Llegada", "checkout": "Salida", "guests": "Huéspedes", "name": "Nombre completo", "email": "Email", "phone": "Teléfono", "notes": "Comentarios (opcional)",
-    "nights": "{n} noches", "nightsOne": "1 noche", "total": "Total", "cta": "Solicitar reserva", "sending": "Enviando…", "invalid": "Revisa las fechas y tus datos.", "error": "No se pudo enviar. Inténtalo de nuevo.",
-    "successTitle": "¡Solicitud recibida!", "successText": "Referencia {ref}. Te contactaremos por email para confirmar tu reserva y el pago.", "noPayment": "No se realiza ningún cargo ahora."
+    "title": "Reserva tu estancia",
+    "checkin": "Llegada",
+    "checkout": "Salida",
+    "guests": "Huéspedes",
+    "name": "Nombre completo",
+    "email": "Email",
+    "phone": "Teléfono",
+    "notes": "Comentarios (opcional)",
+    "nights": "{n} noches",
+    "nightsOne": "1 noche",
+    "total": "Total",
+    "cta": "Solicitar reserva",
+    "sending": "Enviando…",
+    "invalid": "Revisa las fechas y tus datos.",
+    "error": "No se pudo enviar. Inténtalo de nuevo.",
+    "successTitle": "¡Solicitud recibida!",
+    "successText": "Referencia {ref}. Te contactaremos por email para confirmar tu reserva y el pago.",
+    "noPayment": "No se realiza ningún cargo ahora."
   }
 }

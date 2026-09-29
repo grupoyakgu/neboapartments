@@ -1,45 +1,171 @@
 {
-  "meta": { "title": "NEBO Apartments — Appartements pour séjours avec style", "description": "Réservez les appartements NEBO : design, confort et assistance 24h/24. Arrivée autonome et meilleur tarif en réservant en direct." },
-  "nav": { "apartments": "Appartements", "destinations": "Destinations", "business": "Longs séjours", "about": "À propos de NEBO", "help": "Aide", "owners": "Propriétaires", "book": "Réserver", "menu": "Menu" },
-  "hero": { "title": "Votre chez-vous dans toutes les villes", "subtitle": "Appartements design, entièrement équipés, avec assistance 24h/24. Réservez en direct au meilleur prix." },
-  "search": { "where": "Destination", "allDest": "Toutes les destinations", "checkin": "Arrivée", "checkout": "Départ", "guests": "Voyageurs", "guestsN": "{n} voyageurs", "guestsOne": "1 voyageur", "search": "Rechercher" },
+  "meta": {
+    "title": "NEBO Apartments — Appartements pour séjours avec style",
+    "description": "Réservez les appartements NEBO : design, confort et assistance 24h/24. Arrivée autonome et meilleur tarif en réservant en direct."
+  },
+  "nav": {
+    "apartments": "Appartements",
+    "destinations": "Destinations",
+    "business": "Longs séjours",
+    "about": "À propos de NEBO",
+    "help": "Aide",
+    "owners": "Propriétaires",
+    "book": "Réserver",
+    "menu": "Menu"
+  },
+  "hero": {
+    "title": "Votre chez-vous dans toutes les villes",
+    "subtitle": "Appartements design, entièrement équipés, avec assistance 24h/24. Réservez en direct au meilleur prix."
+  },
+  "search": {
+    "where": "Destination",
+    "allDest": "Toutes les destinations",
+    "checkin": "Arrivée",
+    "checkout": "Départ",
+    "guests": "Voyageurs",
+    "guestsN": "{n} voyageurs",
+    "guestsOne": "1 voyageur",
+    "search": "Rechercher",
+    "close": "Fermer"
+  },
   "usp": {
     "title": "Tout ce dont vous avez besoin, sans complication",
     "items": [
-      { "title": "Arrivée autonome", "text": "Arrivez quand vous voulez grâce à l'accès digital, sans réception ni attente." },
-      { "title": "Assistance 24h/24", "text": "Notre équipe vous aide à toute heure, dans votre langue." },
-      { "title": "Design et confort", "text": "Espaces soignés, literie premium, cuisine équipée et Wi-Fi rapide." },
-      { "title": "Meilleur tarif direct", "text": "Réservez ici au meilleur prix, sans frais cachés." }
+      {
+        "title": "Arrivée autonome",
+        "text": "Arrivez quand vous voulez grâce à l'accès digital, sans réception ni attente."
+      },
+      {
+        "title": "Assistance 24h/24",
+        "text": "Notre équipe vous aide à toute heure, dans votre langue."
+      },
+      {
+        "title": "Design et confort",
+        "text": "Espaces soignés, literie premium, cuisine équipée et Wi-Fi rapide."
+      },
+      {
+        "title": "Meilleur tarif direct",
+        "text": "Réservez ici au meilleur prix, sans frais cachés."
+      }
     ]
   },
-  "apts": { "title": "Nos appartements", "subtitle": "Choisissez l'espace qui convient à votre voyage.", "night": "nuit", "from": "dès", "guests": "voyageurs", "bedrooms": "chambres", "baths": "salles de bain", "view": "Voir et réserver", "all": "Voir tous les appartements", "none": "Aucun appartement disponible pour cette recherche.", "amenities": "Équipements", "description": "Description" },
-  "dest": { "title": "Destinations", "subtitle": "Nous grandissons. Découvrez où séjourner avec NEBO.", "soon": "Bientôt", "discover": "Découvrir" },
+  "apts": {
+    "title": "Nos appartements",
+    "subtitle": "Choisissez l'espace qui convient à votre voyage.",
+    "night": "nuit",
+    "from": "dès",
+    "guests": "voyageurs",
+    "bedrooms": "chambres",
+    "baths": "salles de bain",
+    "view": "Voir et réserver",
+    "all": "Voir tous les appartements",
+    "none": "Aucun appartement disponible pour cette recherche.",
+    "amenities": "Équipements",
+    "description": "Description"
+  },
+  "dest": {
+    "title": "Destinations",
+    "subtitle": "Nous grandissons. Découvrez où séjourner avec NEBO.",
+    "soon": "Bientôt",
+    "discover": "Découvrir"
+  },
   "how": {
     "title": "Comment ça marche",
     "steps": [
-      { "title": "Choisissez votre appartement", "text": "Recherchez par dates et voyageurs et trouvez l'espace idéal." },
-      { "title": "Réservez en quelques minutes", "text": "Confirmez vos informations et recevez la confirmation immédiatement." },
-      { "title": "Arrivez et profitez", "text": "Nous vous envoyons les instructions d'accès avant votre arrivée." }
+      {
+        "title": "Choisissez votre appartement",
+        "text": "Recherchez par dates et voyageurs et trouvez l'espace idéal."
+      },
+      {
+        "title": "Réservez en quelques minutes",
+        "text": "Confirmez vos informations et recevez la confirmation immédiatement."
+      },
+      {
+        "title": "Arrivez et profitez",
+        "text": "Nous vous envoyons les instructions d'accès avant votre arrivée."
+      }
     ]
   },
-  "reviews": { "title": "Ce que disent nos voyageurs", "subtitle": "Votre avis nous aide à améliorer chaque séjour.", "cta": "Lire les avis" },
-  "business": { "title": "Longs séjours et entreprises", "text": "Tarifs spéciaux pour les séjours de plus de 30 jours, équipes et professionnels en déplacement.", "cta": "Demander une offre" },
-  "owners": { "title": "Vous avez un bien ?", "text": "Confiez-le à NEBO : nous gérons réservations, ménage et accueil des voyageurs.", "cta": "Travailler avec nous" },
+  "reviews": {
+    "title": "Ce que disent nos voyageurs",
+    "subtitle": "Votre avis nous aide à améliorer chaque séjour.",
+    "cta": "Lire les avis"
+  },
+  "business": {
+    "title": "Longs séjours et entreprises",
+    "text": "Tarifs spéciaux pour les séjours de plus de 30 jours, équipes et professionnels en déplacement.",
+    "cta": "Demander une offre"
+  },
+  "owners": {
+    "title": "Vous avez un bien ?",
+    "text": "Confiez-le à NEBO : nous gérons réservations, ménage et accueil des voyageurs.",
+    "cta": "Travailler avec nous"
+  },
   "faq": {
     "title": "Questions fréquentes",
     "items": [
-      { "q": "Comment fonctionne l'arrivée ?", "a": "Vous recevrez les instructions d'accès digital avant votre arrivée. Inutile de passer par une réception." },
-      { "q": "Puis-je annuler ma réservation ?", "a": "Les conditions d'annulation sont indiquées sur chaque appartement avant la confirmation." },
-      { "q": "Le linge et les serviettes sont-ils inclus ?", "a": "Oui, chaque appartement inclut linge de lit, serviettes et produits de toilette de base." },
-      { "q": "Les animaux sont-ils acceptés ?", "a": "Cela dépend de l'appartement. Écrivez-nous et nous vous aiderons à trouver le bon." },
-      { "q": "Comment vous contacter ?", "a": "Par WhatsApp, e-mail ou téléphone, 24h/24, tous les jours de l'année." }
+      {
+        "q": "Comment fonctionne l'arrivée ?",
+        "a": "Vous recevrez les instructions d'accès digital avant votre arrivée. Inutile de passer par une réception."
+      },
+      {
+        "q": "Puis-je annuler ma réservation ?",
+        "a": "Les conditions d'annulation sont indiquées sur chaque appartement avant la confirmation."
+      },
+      {
+        "q": "Le linge et les serviettes sont-ils inclus ?",
+        "a": "Oui, chaque appartement inclut linge de lit, serviettes et produits de toilette de base."
+      },
+      {
+        "q": "Les animaux sont-ils acceptés ?",
+        "a": "Cela dépend de l'appartement. Écrivez-nous et nous vous aiderons à trouver le bon."
+      },
+      {
+        "q": "Comment vous contacter ?",
+        "a": "Par WhatsApp, e-mail ou téléphone, 24h/24, tous les jours de l'année."
+      }
     ]
   },
-  "newsletter": { "title": "Recevez des offres exclusives", "text": "Abonnez-vous et découvrez en premier nos nouveaux appartements et promotions.", "placeholder": "Votre e-mail", "button": "S'abonner", "thanks": "Merci pour votre inscription !" },
-  "footer": { "tagline": "Des appartements pour des séjours avec style.", "explore": "Explorer", "company": "Entreprise", "support": "Assistance", "legal": "Mentions légales", "careers": "Travailler avec nous", "press": "Presse", "contact": "Contact", "terms": "Conditions générales", "privacy": "Confidentialité", "cookies": "Cookies", "blog": "Blog", "rights": "Tous droits réservés." },
+  "newsletter": {
+    "title": "Recevez des offres exclusives",
+    "text": "Abonnez-vous et découvrez en premier nos nouveaux appartements et promotions.",
+    "placeholder": "Votre e-mail",
+    "button": "S'abonner",
+    "thanks": "Merci pour votre inscription !"
+  },
+  "footer": {
+    "tagline": "Des appartements pour des séjours avec style.",
+    "explore": "Explorer",
+    "company": "Entreprise",
+    "support": "Assistance",
+    "legal": "Mentions légales",
+    "careers": "Travailler avec nous",
+    "press": "Presse",
+    "contact": "Contact",
+    "terms": "Conditions générales",
+    "privacy": "Confidentialité",
+    "cookies": "Cookies",
+    "blog": "Blog",
+    "rights": "Tous droits réservés."
+  },
   "book": {
-    "title": "Réservez votre séjour", "checkin": "Arrivée", "checkout": "Départ", "guests": "Voyageurs", "name": "Nom complet", "email": "E-mail", "phone": "Téléphone", "notes": "Commentaires (facultatif)",
-    "nights": "{n} nuits", "nightsOne": "1 nuit", "total": "Total", "cta": "Demander la réservation", "sending": "Envoi…", "invalid": "Vérifiez les dates et vos informations.", "error": "Envoi impossible. Veuillez réessayer.",
-    "successTitle": "Demande reçue !", "successText": "Référence {ref}. Nous vous contacterons par e-mail pour confirmer la réservation et le paiement.", "noPayment": "Aucun débit n'est effectué maintenant."
+    "title": "Réservez votre séjour",
+    "checkin": "Arrivée",
+    "checkout": "Départ",
+    "guests": "Voyageurs",
+    "name": "Nom complet",
+    "email": "E-mail",
+    "phone": "Téléphone",
+    "notes": "Commentaires (facultatif)",
+    "nights": "{n} nuits",
+    "nightsOne": "1 nuit",
+    "total": "Total",
+    "cta": "Demander la réservation",
+    "sending": "Envoi…",
+    "invalid": "Vérifiez les dates et vos informations.",
+    "error": "Envoi impossible. Veuillez réessayer.",
+    "successTitle": "Demande reçue !",
+    "successText": "Référence {ref}. Nous vous contacterons par e-mail pour confirmer la réservation et le paiement.",
+    "noPayment": "Aucun débit n'est effectué maintenant."
   }
 }

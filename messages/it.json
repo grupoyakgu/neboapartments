@@ -1,45 +1,171 @@
 {
-  "meta": { "title": "NEBO Apartments — Appartamenti per soggiorni di stile", "description": "Prenota gli appartamenti NEBO: design, comfort e assistenza 24/7. Self check-in e miglior tariffa prenotando direttamente." },
-  "nav": { "apartments": "Appartamenti", "destinations": "Destinazioni", "business": "Soggiorni lunghi", "about": "Chi è NEBO", "help": "Aiuto", "owners": "Proprietari", "book": "Prenota", "menu": "Menu" },
-  "hero": { "title": "Casa tua in ogni città", "subtitle": "Appartamenti di design, completamente attrezzati e con assistenza 24/7. Prenota direttamente al miglior prezzo." },
-  "search": { "where": "Destinazione", "allDest": "Tutte le destinazioni", "checkin": "Arrivo", "checkout": "Partenza", "guests": "Ospiti", "guestsN": "{n} ospiti", "guestsOne": "1 ospite", "search": "Cerca" },
+  "meta": {
+    "title": "NEBO Apartments — Appartamenti per soggiorni di stile",
+    "description": "Prenota gli appartamenti NEBO: design, comfort e assistenza 24/7. Self check-in e miglior tariffa prenotando direttamente."
+  },
+  "nav": {
+    "apartments": "Appartamenti",
+    "destinations": "Destinazioni",
+    "business": "Soggiorni lunghi",
+    "about": "Chi è NEBO",
+    "help": "Aiuto",
+    "owners": "Proprietari",
+    "book": "Prenota",
+    "menu": "Menu"
+  },
+  "hero": {
+    "title": "Casa tua in ogni città",
+    "subtitle": "Appartamenti di design, completamente attrezzati e con assistenza 24/7. Prenota direttamente al miglior prezzo."
+  },
+  "search": {
+    "where": "Destinazione",
+    "allDest": "Tutte le destinazioni",
+    "checkin": "Arrivo",
+    "checkout": "Partenza",
+    "guests": "Ospiti",
+    "guestsN": "{n} ospiti",
+    "guestsOne": "1 ospite",
+    "search": "Cerca",
+    "close": "Chiudi"
+  },
   "usp": {
     "title": "Tutto ciò che serve, senza complicazioni",
     "items": [
-      { "title": "Self check-in", "text": "Arriva quando vuoi con accesso digitale, senza reception né attese." },
-      { "title": "Assistenza 24/7", "text": "Il nostro team ti aiuta a qualsiasi ora, nella tua lingua." },
-      { "title": "Design e comfort", "text": "Spazi curati, letti premium, cucina attrezzata e Wi-Fi veloce." },
-      { "title": "Miglior tariffa diretta", "text": "Prenota qui al miglior prezzo, senza costi nascosti." }
+      {
+        "title": "Self check-in",
+        "text": "Arriva quando vuoi con accesso digitale, senza reception né attese."
+      },
+      {
+        "title": "Assistenza 24/7",
+        "text": "Il nostro team ti aiuta a qualsiasi ora, nella tua lingua."
+      },
+      {
+        "title": "Design e comfort",
+        "text": "Spazi curati, letti premium, cucina attrezzata e Wi-Fi veloce."
+      },
+      {
+        "title": "Miglior tariffa diretta",
+        "text": "Prenota qui al miglior prezzo, senza costi nascosti."
+      }
     ]
   },
-  "apts": { "title": "I nostri appartamenti", "subtitle": "Scegli lo spazio più adatto al tuo viaggio.", "night": "notte", "from": "da", "guests": "ospiti", "bedrooms": "camere", "baths": "bagni", "view": "Vedi e prenota", "all": "Vedi tutti gli appartamenti", "none": "Nessun appartamento disponibile per questa ricerca.", "amenities": "Servizi", "description": "Descrizione" },
-  "dest": { "title": "Destinazioni", "subtitle": "Stiamo crescendo. Scopri dove soggiornare con NEBO.", "soon": "In arrivo", "discover": "Scopri" },
+  "apts": {
+    "title": "I nostri appartamenti",
+    "subtitle": "Scegli lo spazio più adatto al tuo viaggio.",
+    "night": "notte",
+    "from": "da",
+    "guests": "ospiti",
+    "bedrooms": "camere",
+    "baths": "bagni",
+    "view": "Vedi e prenota",
+    "all": "Vedi tutti gli appartamenti",
+    "none": "Nessun appartamento disponibile per questa ricerca.",
+    "amenities": "Servizi",
+    "description": "Descrizione"
+  },
+  "dest": {
+    "title": "Destinazioni",
+    "subtitle": "Stiamo crescendo. Scopri dove soggiornare con NEBO.",
+    "soon": "In arrivo",
+    "discover": "Scopri"
+  },
   "how": {
     "title": "Come funziona",
     "steps": [
-      { "title": "Scegli il tuo appartamento", "text": "Cerca per date e ospiti e trova lo spazio ideale." },
-      { "title": "Prenota in pochi minuti", "text": "Conferma i tuoi dati e ricevi subito la conferma." },
-      { "title": "Arriva e goditi il soggiorno", "text": "Ti inviamo le istruzioni di accesso prima dell'arrivo." }
+      {
+        "title": "Scegli il tuo appartamento",
+        "text": "Cerca per date e ospiti e trova lo spazio ideale."
+      },
+      {
+        "title": "Prenota in pochi minuti",
+        "text": "Conferma i tuoi dati e ricevi subito la conferma."
+      },
+      {
+        "title": "Arriva e goditi il soggiorno",
+        "text": "Ti inviamo le istruzioni di accesso prima dell'arrivo."
+      }
     ]
   },
-  "reviews": { "title": "Cosa dicono i nostri ospiti", "subtitle": "La tua opinione ci aiuta a migliorare ogni soggiorno.", "cta": "Leggi le recensioni" },
-  "business": { "title": "Soggiorni lunghi e aziendali", "text": "Tariffe speciali per soggiorni oltre 30 giorni, team e professionisti in trasferta.", "cta": "Richiedi un'offerta" },
-  "owners": { "title": "Hai una proprietà?", "text": "Affidala a NEBO: gestiamo prenotazioni, pulizie e assistenza agli ospiti.", "cta": "Lavora con noi" },
+  "reviews": {
+    "title": "Cosa dicono i nostri ospiti",
+    "subtitle": "La tua opinione ci aiuta a migliorare ogni soggiorno.",
+    "cta": "Leggi le recensioni"
+  },
+  "business": {
+    "title": "Soggiorni lunghi e aziendali",
+    "text": "Tariffe speciali per soggiorni oltre 30 giorni, team e professionisti in trasferta.",
+    "cta": "Richiedi un'offerta"
+  },
+  "owners": {
+    "title": "Hai una proprietà?",
+    "text": "Affidala a NEBO: gestiamo prenotazioni, pulizie e assistenza agli ospiti.",
+    "cta": "Lavora con noi"
+  },
   "faq": {
     "title": "Domande frequenti",
     "items": [
-      { "q": "Come funziona il check-in?", "a": "Riceverai le istruzioni di accesso digitale prima dell'arrivo. Non serve passare da una reception." },
-      { "q": "Posso cancellare la prenotazione?", "a": "Le condizioni di cancellazione sono indicate su ogni appartamento prima della conferma." },
-      { "q": "Biancheria e asciugamani sono inclusi?", "a": "Sì, ogni appartamento include biancheria da letto, asciugamani e articoli base per il bagno." },
-      { "q": "Accettate animali?", "a": "Dipende dall'appartamento. Scrivici e ti aiuteremo a trovare quello giusto." },
-      { "q": "Come posso contattarvi?", "a": "Via WhatsApp, email o telefono, 24 ore su 24, tutti i giorni dell'anno." }
+      {
+        "q": "Come funziona il check-in?",
+        "a": "Riceverai le istruzioni di accesso digitale prima dell'arrivo. Non serve passare da una reception."
+      },
+      {
+        "q": "Posso cancellare la prenotazione?",
+        "a": "Le condizioni di cancellazione sono indicate su ogni appartamento prima della conferma."
+      },
+      {
+        "q": "Biancheria e asciugamani sono inclusi?",
+        "a": "Sì, ogni appartamento include biancheria da letto, asciugamani e articoli base per il bagno."
+      },
+      {
+        "q": "Accettate animali?",
+        "a": "Dipende dall'appartamento. Scrivici e ti aiuteremo a trovare quello giusto."
+      },
+      {
+        "q": "Come posso contattarvi?",
+        "a": "Via WhatsApp, email o telefono, 24 ore su 24, tutti i giorni dell'anno."
+      }
     ]
   },
-  "newsletter": { "title": "Ricevi offerte esclusive", "text": "Iscriviti e scopri per primo i nuovi appartamenti e le promozioni.", "placeholder": "La tua email", "button": "Iscriviti", "thanks": "Grazie per l'iscrizione!" },
-  "footer": { "tagline": "Appartamenti per soggiorni di stile.", "explore": "Esplora", "company": "Azienda", "support": "Supporto", "legal": "Note legali", "careers": "Lavora con noi", "press": "Stampa", "contact": "Contatti", "terms": "Termini e condizioni", "privacy": "Privacy", "cookies": "Cookie", "blog": "Blog", "rights": "Tutti i diritti riservati." },
+  "newsletter": {
+    "title": "Ricevi offerte esclusive",
+    "text": "Iscriviti e scopri per primo i nuovi appartamenti e le promozioni.",
+    "placeholder": "La tua email",
+    "button": "Iscriviti",
+    "thanks": "Grazie per l'iscrizione!"
+  },
+  "footer": {
+    "tagline": "Appartamenti per soggiorni di stile.",
+    "explore": "Esplora",
+    "company": "Azienda",
+    "support": "Supporto",
+    "legal": "Note legali",
+    "careers": "Lavora con noi",
+    "press": "Stampa",
+    "contact": "Contatti",
+    "terms": "Termini e condizioni",
+    "privacy": "Privacy",
+    "cookies": "Cookie",
+    "blog": "Blog",
+    "rights": "Tutti i diritti riservati."
+  },
   "book": {
-    "title": "Prenota il tuo soggiorno", "checkin": "Arrivo", "checkout": "Partenza", "guests": "Ospiti", "name": "Nome completo", "email": "Email", "phone": "Telefono", "notes": "Commenti (facoltativo)",
-    "nights": "{n} notti", "nightsOne": "1 notte", "total": "Totale", "cta": "Richiedi prenotazione", "sending": "Invio…", "invalid": "Controlla date e dati.", "error": "Invio non riuscito. Riprova.",
-    "successTitle": "Richiesta ricevuta!", "successText": "Riferimento {ref}. Ti contatteremo via email per confermare prenotazione e pagamento.", "noPayment": "Nessun addebito ora."
+    "title": "Prenota il tuo soggiorno",
+    "checkin": "Arrivo",
+    "checkout": "Partenza",
+    "guests": "Ospiti",
+    "name": "Nome completo",
+    "email": "Email",
+    "phone": "Telefono",
+    "notes": "Commenti (facoltativo)",
+    "nights": "{n} notti",
+    "nightsOne": "1 notte",
+    "total": "Totale",
+    "cta": "Richiedi prenotazione",
+    "sending": "Invio…",
+    "invalid": "Controlla date e dati.",
+    "error": "Invio non riuscito. Riprova.",
+    "successTitle": "Richiesta ricevuta!",
+    "successText": "Riferimento {ref}. Ti contatteremo via email per confermare prenotazione e pagamento.",
+    "noPayment": "Nessun addebito ora."
   }
 }

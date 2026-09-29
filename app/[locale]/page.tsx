@@ -25,7 +25,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
           <div className="container hero-inner">
             <h1>{t.hero.title}</h1>
             <p>{t.hero.subtitle}</p>
-            <SearchBar locale={locale} t={t} city={brand.city} />
+            <SearchBar locale={locale} t={t} city={brand.city} collapsible />
           </div>
         </section>
 
