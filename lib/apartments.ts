@@ -75,4 +75,11 @@ export const apartments: Apartment[] = [
 
 export const spaceImages = ["1XCWPmWw01HJyLiynl4DAYwrD2v4d3T9M", "1GXoh3NZWEftwhP0fK1RHXpgX1JQbJI62", "1XP3XUrqulexb8XV9sgolADY2_E6D8u_c"].map((id) => img(id, 1200));
 
+// Destination card photos (Google Drive file ids for now).
+export const destinationImages: Record<string, string> = {
+  Madrid: spaceImages[0],
+  Sevilla: img("1ZdGObmy1Z4WHBuJuW_6yT1OLTsZjt4dL", 1200),
+  Amsterdam: img("1RAyC74l41DQy1tUm_Zvwq4oyo7D7hpA2", 1200),
+};
+
 export const getApartment = (slug: string) => apartments.find((a) => a.slug === slug);

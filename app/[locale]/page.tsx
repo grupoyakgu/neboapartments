@@ -5,7 +5,7 @@ import SearchBar from "@/components/SearchBar";
 import ApartmentCard from "@/components/ApartmentCard";
 import Faq from "@/components/Faq";
 import Newsletter from "@/components/Newsletter";
-import { apartments, brand, destinations, spaceImages } from "@/lib/apartments";
+import { apartments, brand, destinationImages, destinations, spaceImages } from "@/lib/apartments";
 import { getMessages, isLocale } from "@/lib/i18n";
 
 export default async function Home({ params }: { params: Promise<{ locale: string }> }) {
@@ -23,7 +23,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
           </video>
           <div className="hero-shade" />
           <div className="container hero-inner">
-            <h1 style={{ ["--chars" as string]: t.hero.title.length, ["--cw" as string]: locale === "ko" ? 1 : 0.6 }}>{t.hero.title}</h1>
+            <h1>{t.hero.title}</h1>
             <p>{t.hero.subtitle}</p>
             <SearchBar locale={locale} t={t} cities={destinations} collapsible />
           </div>
@@ -55,13 +55,13 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
         <section className="section container" id="destinations">
           <div className="section-head"><div><h2>{t.dest.title}</h2><p className="muted">{t.dest.subtitle}</p></div></div>
           <div className="grid3">
-            {destinations.map((city, i) =>
+            {destinations.map((city) =>
               city === brand.city ? (
-                <a className="dest" href={`/${locale}/apartments?city=${city}`} key={city} style={{ backgroundImage: `url(${spaceImages[i]})` }}>
+                <a className="dest" href={`/${locale}/apartments?city=${city}`} key={city} style={{ backgroundImage: `url(${destinationImages[city]})` }}>
                   <span>{city}</span><em>{t.dest.discover} →</em>
                 </a>
               ) : (
-                <a className="dest soon" href="#" key={city} style={{ backgroundImage: `url(${spaceImages[i]})` }}>
+                <a className="dest soon" href="#" key={city} style={{ backgroundImage: `url(${destinationImages[city]})` }}>
                   <span>{city}</span><em>{t.dest.soon}</em>
                 </a>
               ),
