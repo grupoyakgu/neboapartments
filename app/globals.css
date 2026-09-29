@@ -74,5 +74,5 @@ aside h3{margin-top:0}
   .collapsible .searchbar label:first-of-type,.collapsible .searchbar .btn[type=submit]{grid-column:1/-1}
   .collapsible .search-close{display:flex;align-items:center;justify-content:center;position:absolute;top:8px;right:12px;width:36px;height:36px;border:0;border-radius:50%;background:var(--sand);font-size:1.5rem;line-height:1;cursor:pointer}
 }
-/* hero title: always one line — font size scales with viewport width and title length */
-.hero h1{white-space:nowrap;font-size:min(4rem,calc(min(100vw - 40px,1200px) / (var(--chars,30) * var(--cw,.6))))}
+/* hero title: exactly two balanced lines; size scales with viewport width and title length */
+.hero h1{--half:calc(var(--chars,30) * var(--cw,.6) * .58);text-wrap:balance;max-width:calc(var(--half) * 1em);font-size:min(5.5rem,calc(min(100vw - 40px,1200px) / var(--half)))}
