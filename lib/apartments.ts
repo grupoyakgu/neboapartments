@@ -7,7 +7,7 @@ export const brand = {
   city: "Madrid", // placeholder destination
   whatsapp: "", // e.g. "34600000000"
   email: "",
-  heroVideo: "/hero.mp4",
+  heroVideo: "/video/hero.mp4",
   heroPoster: img("14tAYCZ6AkNrrIbl3Fl2WDr4mQqonb7wS", 2000),
 };
 
