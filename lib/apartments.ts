@@ -7,8 +7,8 @@ export const brand = {
   city: "Madrid", // placeholder destination
   whatsapp: "", // e.g. "34600000000"
   email: "",
-  // Set to a path under /public (e.g. "/video/hero.mp4") once the hero video is optimised and added.
-  heroVideo: "/video/hero.mp4",
+  // Temporary: streamed from Google Drive. Better: add the file as public/video/hero.mp4 and set "/video/hero.mp4".
+  heroVideo: "https://drive.google.com/uc?export=download&id=1nuFAy309NL4LxOoIDP47--NCJpF_XW-8",
   heroPoster: img("14tAYCZ6AkNrrIbl3Fl2WDr4mQqonb7wS", 2000),
 };
 
