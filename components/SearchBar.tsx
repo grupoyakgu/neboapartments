@@ -5,7 +5,7 @@ import type { Locale, Messages } from "@/lib/i18n";
 const today = () => new Date().toISOString().slice(0, 10);
 
 // `collapsible`: on phones the form is hidden behind a button and opens as a bottom sheet (used in the hero).
-export default function SearchBar({ locale, t, city, collapsible = false }: { locale: Locale; t: Messages; city: string; collapsible?: boolean }) {
+export default function SearchBar({ locale, t, cities, collapsible = false }: { locale: Locale; t: Messages; cities: string[]; collapsible?: boolean }) {
   const [checkin, setCheckin] = useState("");
   const [open, setOpen] = useState(false);
   const s = t.search;
@@ -31,7 +31,7 @@ export default function SearchBar({ locale, t, city, collapsible = false }: { lo
           <span>{s.where}</span>
           <select name="city" defaultValue="">
             <option value="">{s.allDest}</option>
-            <option value={city}>{city}</option>
+            {cities.map((c) => <option key={c} value={c}>{c}</option>)}
           </select>
         </label>
         <label>

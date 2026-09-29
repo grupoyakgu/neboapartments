@@ -3,7 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SearchBar from "@/components/SearchBar";
 import ApartmentCard from "@/components/ApartmentCard";
-import { apartments, brand } from "@/lib/apartments";
+import { apartments, destinations } from "@/lib/apartments";
 import { getMessages, isLocale } from "@/lib/i18n";
 
 type SP = { city?: string; guests?: string; checkin?: string; checkout?: string };
@@ -22,7 +22,7 @@ export default async function Apartments({ params, searchParams }: { params: Pro
       <Header locale={locale} t={t} />
       <main className="container page">
         <h1>{t.apts.title}</h1>
-        <SearchBar locale={locale} t={t} city={brand.city} />
+        <SearchBar locale={locale} t={t} cities={destinations} />
         <div className="grid3 mt">
           {list.map((a) => <ApartmentCard key={a.slug} apt={a} locale={locale} t={t} qs={qs ? `?${qs}` : ""} />)}
         </div>

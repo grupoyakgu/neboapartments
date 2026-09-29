@@ -5,7 +5,7 @@ import SearchBar from "@/components/SearchBar";
 import ApartmentCard from "@/components/ApartmentCard";
 import Faq from "@/components/Faq";
 import Newsletter from "@/components/Newsletter";
-import { apartments, brand, spaceImages } from "@/lib/apartments";
+import { apartments, brand, destinations, spaceImages } from "@/lib/apartments";
 import { getMessages, isLocale } from "@/lib/i18n";
 
 export default async function Home({ params }: { params: Promise<{ locale: string }> }) {
@@ -23,9 +23,9 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
           </video>
           <div className="hero-shade" />
           <div className="container hero-inner">
-            <h1>{t.hero.title}</h1>
+            <h1 style={{ ["--chars" as string]: t.hero.title.length, ["--cw" as string]: locale === "ko" ? 1 : 0.6 }}>{t.hero.title}</h1>
             <p>{t.hero.subtitle}</p>
-            <SearchBar locale={locale} t={t} city={brand.city} collapsible />
+            <SearchBar locale={locale} t={t} cities={destinations} collapsible />
           </div>
         </section>
 

@@ -65,7 +65,7 @@ aside h3{margin-top:0}
 @media(max-width:700px){
   .hero{min-height:100svh}
   .hero-inner{padding:110px 0 36px}
-  .hero-inner p{margin-bottom:20px}
+  .hero-inner p{margin-bottom:20px;font-size:1rem}
   .collapsible .search-trigger{display:inline-flex;width:100%;max-width:340px}
   .collapsible .search-backdrop{display:block;position:fixed;inset:0;z-index:40;background:#0007;opacity:0;pointer-events:none;transition:opacity .25s}
   .collapsible.open .search-backdrop{opacity:1;pointer-events:auto}
@@ -74,3 +74,5 @@ aside h3{margin-top:0}
   .collapsible .searchbar label:first-of-type,.collapsible .searchbar .btn[type=submit]{grid-column:1/-1}
   .collapsible .search-close{display:flex;align-items:center;justify-content:center;position:absolute;top:8px;right:12px;width:36px;height:36px;border:0;border-radius:50%;background:var(--sand);font-size:1.5rem;line-height:1;cursor:pointer}
 }
+/* hero title: always one line — font size scales with viewport width and title length */
+.hero h1{white-space:nowrap;font-size:min(4rem,calc(min(100vw - 40px,1200px) / (var(--chars,30) * var(--cw,.6))))}

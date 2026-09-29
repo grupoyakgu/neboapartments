@@ -2,6 +2,8 @@
 // Images are served from the shared Google Drive folder for now; move them to /public/images later.
 const img = (id: string, w = 1600) => `https://lh3.googleusercontent.com/d/${id}=w${w}`;
 
+export const destinations = ["Madrid", "Sevilla", "Amsterdam"];
+
 export const brand = {
   name: "NEBO Apartments",
   city: "Madrid", // placeholder destination
