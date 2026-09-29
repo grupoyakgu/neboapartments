@@ -1,4 +1,3 @@
-// Swap /public/logo.svg for the real NEBO logo (keep the filename, or update `src`).
 export default function Logo({ light = false }: { light?: boolean }) {
-  return <img src="/logo.svg" alt="NEBO Apartments" className={`logo${light ? " logo-light" : ""}`} height={34} />;
+  return <img src="/logo.png" alt="NEBO Apartments" className={`logo${light ? " logo-light" : ""}`} height={34} width={Math.round(34 * 2.65)} />;
 }
