@@ -24,7 +24,6 @@ export default async function About({ params }: { params: Promise<{ locale: stri
       <main>
         <section className="about-hero">
           <div className="container">
-            <span className="kicker">{a.kicker}</span>
             <h1>{a.title}</h1>
           </div>
         </section>
