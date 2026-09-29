@@ -55,14 +55,17 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
         <section className="section container" id="destinations">
           <div className="section-head"><div><h2>{t.dest.title}</h2><p className="muted">{t.dest.subtitle}</p></div></div>
           <div className="grid3">
-            <a className="dest" href={`/${locale}/apartments`} style={{ backgroundImage: `url(${spaceImages[0]})` }}>
-              <span>{brand.city}</span><em>{t.dest.discover} →</em>
-            </a>
-            {[1, 2].map((i) => (
-              <a className="dest soon" href="#" key={i} style={{ backgroundImage: `url(${spaceImages[i]})` }}>
-                <span>{t.dest.soon}</span>
-              </a>
-            ))}
+            {destinations.map((city, i) =>
+              city === brand.city ? (
+                <a className="dest" href={`/${locale}/apartments?city=${city}`} key={city} style={{ backgroundImage: `url(${spaceImages[i]})` }}>
+                  <span>{city}</span><em>{t.dest.discover} →</em>
+                </a>
+              ) : (
+                <a className="dest soon" href="#" key={city} style={{ backgroundImage: `url(${spaceImages[i]})` }}>
+                  <span>{city}</span><em>{t.dest.soon}</em>
+                </a>
+              ),
+            )}
           </div>
         </section>
 
